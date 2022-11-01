@@ -1,0 +1,95 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(225, 100%, 94%);
+    font-size: 16px;
+    font-family: 'Red Hat Display', sans-serif;
+}
+.card{
+    width: 387px;
+    height: 550px;
+    background-color:white ;
+    border-radius: 15px;
+text-align: center;
+   
+}
+.card img{
+    border-top-left-radius:15px;
+    border-top-right-radius:15px;
+    width: 100%;
+   
+    
+}
+.title{
+    padding-top: 30px;
+}
+.plant img{
+    width: 50px;
+
+}
+.desc{
+   padding: 20px 40px 0 30px;
+   color:hsl(224, 23%, 55%);
+   font-weight: 500;
+   font-size: 14px;
+
+}
+.plant{
+   background-color:   hsl(225, 100%, 98%);
+   padding: 9px;
+ border-radius: 10px;
+    margin-top:20px;
+    margin-left: 60px;
+    margin-right:70px ;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+   font-size: 14px;
+    width: 70%;
+    font-weight: 700;
+}
+button{
+    margin-top: 20px;
+    width: 75%;
+    padding: 10px 0px;
+    margin-left: 60px;
+    margin-right: 40px;
+
+    border: none;
+    border-radius: 7px;
+    background-color:hsl(245, 75%, 52%) ;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+   
+    
+   
+    
+}
+#btn{
+     background-color: white;
+     color:hsl(224, 23%, 55%);
+     padding-top: 5px;
+     font-weight: 600;
+    
+
+}
+a{
+    font-size: 12.5px;
+    color: rgb(55, 0, 255);
+
+}
+span{
+    font-size: 13px;
+    color:hsl(224, 23%, 55%);
+    font-weight: 300;
+}
